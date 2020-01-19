@@ -3,7 +3,15 @@
 
 class Player{
     public:
+        Player();
         Player(int, int, sf::Texture&);
         sf::Sprite sprite;
-        sf::Vector2f velocity;
+        int direction;
+
+        enum direction{
+            NORTH,
+            EAST,
+            SOUTH,
+            WEST
+        };
 };
