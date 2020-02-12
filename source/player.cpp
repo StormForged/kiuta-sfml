@@ -6,4 +6,6 @@ Player::Player(int x, int y, sf::Texture& texture){
     sprite.setTexture(texture);
     sprite.setPosition(x,y);
     direction = SOUTH;
+    seeds = 0;
+    crops = 0;
 }

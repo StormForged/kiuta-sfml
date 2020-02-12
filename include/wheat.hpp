@@ -11,6 +11,8 @@ class Wheat{
         sf::Sprite sprite;
         int days_planted = 0;
         int state = seed;
+        int mapX;
+        int mapY;
 
     enum state{
         seed,

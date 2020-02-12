@@ -7,6 +7,8 @@ class Player{
         Player(int, int, sf::Texture&);
         sf::Sprite sprite;
         int direction;
+        int seeds;
+        int crops;
 
         enum direction{
             NORTH,
